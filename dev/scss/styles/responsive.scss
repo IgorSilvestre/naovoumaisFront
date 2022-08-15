@@ -1,0 +1,18 @@
+@media screen and (max-width: 1050px) {
+    header a {
+        margin-left: 20px;
+    }
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    header {
+        flex-direction: column;
+    }
+    header a {
+        margin: 20px auto;
+        padding: 0;
+    }
+}

@@ -1,0 +1,116 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 900px;
+}
+
+nav {
+    min-width: 25%;
+    min-height: 100%;
+    background-color: #f1f3f9;
+}
+
+.product-area {
+    width: 100%;
+    text-align: center;
+}
+.product-area h2 {
+    margin: auto;
+    margin-top: 15px;
+}
+#product-card-area {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-area button {
+    margin: 20px;
+    padding: 10px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    background-color: #202124;
+    color: #f8f9fc;
+    border-width: 0;
+    border-radius: 8px;
+}
+.product-area button:hover {
+    cursor: pointer;
+    background-color: #0B5ED7;
+}
+
+/* ----------------------------- */
+.product-card {
+    margin-bottom: 10px;
+    width: 70%;
+    max-height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f9fc;
+    border-radius: 8px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: #202124;
+}
+.product-card:hover {
+    border: 1px solid #0B5ED7;
+}
+.product-card img {
+    width: 163px;
+    height: 163px;
+    background-color: #202124;
+    border-radius: 8px;
+}
+.product-first-info {
+    margin: 15px 0 0 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.product-first-info h4 {
+    margin: 0;
+    text-align: left;
+}
+.product-first-info p {
+    margin-right: 10px;
+    text-align: justify;
+}
+.product-second-info {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-second-info p {
+    margin: 0;
+    text-align: center;
+}
+/* ----------------------------- */
+
+/* ----------- RESPONSIVE -------------- */
+@media screen and (max-width: 1050px) {
+    header a {
+        margin-left: 20px;
+    }
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    header {
+        flex-direction: column;
+    }
+    header a {
+        margin: 20px auto;
+        padding: 0;
+    }
+}

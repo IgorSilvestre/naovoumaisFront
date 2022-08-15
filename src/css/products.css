@@ -1,0 +1,32 @@
+main {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+
+}
+
+main img {
+  min-width: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .product-vendor .product-info h1 {
+  margin-bottom: 20px;
+
+}
+
+.container .product-vendor .product-info p {
+  margin-bottom: 30px;
+
+}
+
+.product-vendor {
+  max-width: 70%;
+}
